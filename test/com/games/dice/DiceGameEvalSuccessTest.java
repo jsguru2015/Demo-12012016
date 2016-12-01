@@ -10,8 +10,8 @@ public class DiceGameEvalSuccessTest {
 	public void testSuccessWithInput1() {
 		Integer[] userInputs = {4,4,4,4,4};
 		DiceGameEvaluator gameEvaluator = new DiceGameEvaluator();
-		gameEvaluator.setUserInput(userInputs);
-		int earnings = gameEvaluator.calculateTotalEarnings();
+		//gameEvaluator.setUserInput(userInputs);
+		int earnings = gameEvaluator.calculateTotalEarnings(userInputs);
 		assertEquals(480,earnings);
 	}
 

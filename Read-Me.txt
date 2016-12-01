@@ -1,0 +1,1 @@
+This Tool do not have any user interface, but provides a service to test using JUnit Test Cases,

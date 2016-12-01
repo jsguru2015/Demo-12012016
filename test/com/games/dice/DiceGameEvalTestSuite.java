@@ -1,14 +1,18 @@
 package com.games.dice;
 
-import static org.junit.Assert.*;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
 
-import org.junit.Test;
-
+@RunWith(Suite.class)
+@SuiteClasses({
+	DiceGameEvalSuccessTest.class,
+	DiceGameEvalFailureTest.class })
 public class DiceGameEvalTestSuite {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public class AllTests 
+	{
+		//No implementation
 	}
 
 }
